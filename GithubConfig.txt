@@ -96,3 +96,7 @@ Scope	Local (working directory to staging area).	Remote (local repository to a s
 Prerequisites	Typically follows editing files.	Requires changes to be committed first.
 Visibility	Changes are only on your machine.	Changes are visible to all with access to the remote repo.
 Workflow Stage	Preparation for a commit (staging).	Publication of commits (sharing).
+
+--==== git pull - sync remote changes to local machine
+git pull origin main 
+
