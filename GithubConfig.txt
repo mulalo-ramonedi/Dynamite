@@ -48,3 +48,43 @@ remote: Compressing objects: 100% (3/3), done.
 remote: Total 8 (delta 0), reused 5 (delta 0), pack-reused 0 (from 0)
 Receiving objects: 100% (8/8), done.
 PS C:\Users\avdow\Desktop\GunPowder\Dynamite>
+
+======= Adding files
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git add .
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git init
+Reinitialized existing Git repository in C:/Users/avdow/Desktop/GunPowder/Dynamite/.git/
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git add .
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git commit -m "Pushing files for the first time"
+[main c45dd64] Pushing files for the first time
+ 3 files changed, 100093 insertions(+)
+ create mode 100644 1770794931800_property24.csv
+ create mode 100644 GithubConfig.txt
+ create mode 100644 Practice_questions.sql
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite>
+
+=====Git Push
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git add .
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git init
+Reinitialized existing Git repository in C:/Users/avdow/Desktop/GunPowder/Dynamite/.git/
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git add .
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git commit -m "Pushing files for the first time"
+[main c45dd64] Pushing files for the first time
+ 3 files changed, 100093 insertions(+)
+ create mode 100644 1770794931800_property24.csv
+ create mode 100644 GithubConfig.txt
+ create mode 100644 Practice_questions.sql
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git push origin main
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (5/5), 2.18 MiB | 869.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: This repository moved. Please use the new location:
+remote:   https://github.com/mulalo-ramonedi/Dynamite.git
+To https://github.com/mulalo-ramonedi/dynamite.git
+   98ad32e..c45dd64  main -> main
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite>
