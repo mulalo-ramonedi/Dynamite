@@ -88,3 +88,11 @@ remote:   https://github.com/mulalo-ramonedi/Dynamite.git
 To https://github.com/mulalo-ramonedi/dynamite.git
    98ad32e..c45dd64  main -> main
 PS C:\Users\avdow\Desktop\GunPowder\Dynamite>
+=======guide
+Summary of Differences
+Feature 	git add	git push
+Action	Stages changes in the local working directory.	Uploads committed changes to a remote repository.
+Scope	Local (working directory to staging area).	Remote (local repository to a server).
+Prerequisites	Typically follows editing files.	Requires changes to be committed first.
+Visibility	Changes are only on your machine.	Changes are visible to all with access to the remote repo.
+Workflow Stage	Preparation for a commit (staging).	Publication of commits (sharing).
