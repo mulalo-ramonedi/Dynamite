@@ -1,0 +1,50 @@
+avdow@Avedora-GRC MINGW64 ~ (master)
+$ git config --global user.name "mulalo-ramonedi"
+
+avdow@Avedora-GRC MINGW64 ~ (master)
+$ git config --global user.email "mulalo.ramonedi@gmail.com"
+
+avdow@Avedora-GRC MINGW64 ~ (master)
+$ git config --list
+diff.astextplain.textconv=astextplain
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+http.sslbackend=schannel
+core.autocrlf=true
+core.fscache=true
+core.symlinks=false
+pull.rebase=false
+credential.helper=manager
+credential.https://dev.azure.com.usehttppath=true
+init.defaultbranch=master
+user.name=mulalo-ramonedi
+user.email=mulalo.ramonedi@gmail.com
+filter.lfs.clean=git-lfs clean -- %f
+filter.lfs.smudge=git-lfs smudge -- %f
+filter.lfs.process=git-lfs filter-process
+filter.lfs.required=true
+core.repositoryformatversion=0
+core.filemode=false
+core.bare=false
+core.logallrefupdates=true
+core.symlinks=false
+core.ignorecase=true
+
+=====
+Windows PowerShell
+Copyright (C) Microsoft Corporation. All rights reserved.
+
+Install the latest PowerShell for new features and improvements! https://aka.ms/PSWindows
+
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git -v
+git version 2.53.0.windows.1
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite> git clone https://github.com/mulalo-ramonedi/dynamite.git
+Cloning into 'dynamite'...
+remote: Enumerating objects: 8, done.
+remote: Counting objects: 100% (8/8), done.
+remote: Compressing objects: 100% (3/3), done.
+remote: Total 8 (delta 0), reused 5 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (8/8), done.
+PS C:\Users\avdow\Desktop\GunPowder\Dynamite>
